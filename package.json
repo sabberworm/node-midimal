@@ -1,0 +1,15 @@
+{
+  "author": "Raphael Schweikert <any@sabberworm.com> (http://www.sabberworm.com)",
+  "name": "midimal",
+  "description": "Minimal MIDI File Writing Library",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sabberworm/node-midimal.git"
+  },
+  "engines": {
+    "node": "~0.6.7"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}
