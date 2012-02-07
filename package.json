@@ -1,7 +1,8 @@
 {
-  "author": "Raphael Schweikert <any@sabberworm.com> (http://www.sabberworm.com)",
+  "author": "Raphael Schweikert <any@sabberworm.com> (http://sabberworm.com)",
   "name": "midimal",
   "description": "Minimal MIDI File Writing Library",
+  "keywords": ["midi", "audio"],
   "version": "0.0.1",
   "repository": {
     "type": "git",
