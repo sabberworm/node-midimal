@@ -4,15 +4,17 @@ Minimal MIDI File Writing Library for Node
 
 ## Usage Example
 
-	var midimal = require('midimal');
-	var midi = new midimal.MIDI({volume: 127});
-	var track = midi.track();
-	track.instrument(midimal.utils.instrument().Glockenspiel());
-	track.note(midimal.utils.note().from_frequency(440), 400, 200);
-	track.note(midimal.utils.note().from_name('c', 2, '♯'), 500, 20);
-	track.instrument(midimal.utils.instrument().from_name('Bass'));
-	track.note(midimal.utils.note().from_name('d', 2, '♭'), 500, 200);
-	midi.write(process.stdout);
+```javascript
+var midimal = require('midimal');
+var midi = new midimal.MIDI({volume: 127});
+var track = midi.track();
+track.instrument(midimal.utils.instrument().Glockenspiel());
+track.note(midimal.utils.note().from_frequency(440), 400, 200);
+track.note(midimal.utils.note().from_name('c', 2, '♯'), 500, 20);
+track.instrument(midimal.utils.instrument().from_name('Bass'));
+track.note(midimal.utils.note().from_name('d', 2, '♭'), 500, 200);
+midi.write(process.stdout);
+```
 
 Also see the [source](https://github.com/sabberworm/node-iff-parser/blob/6b3a8a5eae72edcec1121b6bb71c747036a02342/lib/utils.js#L99) for the smus-to-midi converter.
 
