@@ -3,13 +3,13 @@
   "name": "midimal",
   "description": "Minimal MIDI File Writing Library",
   "keywords": ["midi", "audio"],
-  "version": "0.0.5",
+  "version": "0.0.6",
   "repository": {
     "type": "git",
     "url": "git://github.com/sabberworm/node-midimal.git"
   },
   "engines": {
-    "node": "~0.6.7"
+    "node": ">= 0.8.0"
   },
   "main": "index.js",
   "dependencies": {
